@@ -2,4 +2,4 @@ deployment:
   task: 
     -npm install
     -npm run build
-    -rsync -av --delete build/ /home/talentpo/public_html/
+    -rsync -av --delete build/ /home/talentpo/talentpoolresourcesinternationl/
