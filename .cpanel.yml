@@ -1,4 +1,4 @@
 deployment:
   task: 
-    -export DEPLOYPATH=/home/talentpo/public_html
+    -export DEPLOYPATH=/home/talentpo/repositories/talentpoolresourcesinternational
     -/bin/cp -R * $DEPLOYPATH
