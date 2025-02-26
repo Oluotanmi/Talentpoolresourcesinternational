@@ -59,7 +59,7 @@ export const ContactUs = ({  }) => {
                   </p>
                </div>
                
-               <div className="sm:w-[290px] justify-center items-center xl:w-[500px] sm:m-8">
+               <div className="sm:w-[290px] sm:inline justify-center items-center xl:w-[500px] ">
                   <div 
                     className="xl:flex xl:justify-between">
                     <Input placeholder="First Name"/>
@@ -72,7 +72,7 @@ export const ContactUs = ({  }) => {
                     <Input placeholder="Service interested  in"/>
                     <Input placeholder="Subject"/>
                   </div>
-                  <div className=" p-5">
+                  <div className="mt-5">
                     <input 
                       className="w-full border border-blue-600 p-10"
                       placeholder="say something"

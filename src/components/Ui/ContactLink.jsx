@@ -18,7 +18,7 @@ const ContactLink = () => {
                 <div className="flex">
                     <MdOutlineMailOutline className="text-blue-600" size={25}/>
                     <Link href="talentpoolresourcesng@gmail.com">
-                        <h1 className="xl:text-[10px] mt-1">talentpoolresourcesng@gmail.com</h1>
+                        <h1 className="xl:text-[10px] mt-1">info@talentpoolresourcesinternational.com</h1>
                     </Link>
                 </div>  
 

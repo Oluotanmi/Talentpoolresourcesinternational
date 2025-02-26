@@ -10,14 +10,14 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
     return (
-        <div className="bg-blue-700 p-5 xl:mt-60 sm:mt-[40px] justify-around flex">
+        <div className="bg-blue-700 p-5 xl:mt-60 sm:mt-[40px] justify-around w-full flex">
 
             {/* <div className="bg-blue-400 xl:w-[700px] rounded-xl flex absolute xl:top-[2150px] sm:top-[2820px] p-[20px] justify-between align-middle" >
                <p className="text-white font-bold mt-1">Ready to Get Started? </p>
                <ScalerButton state=" Contact Us" />
             </div> */}
 
-            <div className="xl:flex sm:inline-block text-center xl:mt-20 xl:w-[1000px] justify-between">
+            <div className="xl:flex sm:inline-block text-center xl:mt-20  xl:w-[1500px] justify-around ">
                 <div className="flex xl:m-10 sm:m-5 justify-between ">
                     <div className="p-5 bg-white rounded-full">
                       <Link to="https://www.instagram.com/talentpoolresources24/">
@@ -60,7 +60,7 @@ export const Footer = () => {
 
                    <div className="text-white text-[12px]">
                       <h1 className="text-white font-bold xl:text-[27px] sm:text-[15px]">Contact us</h1>
-                      <p>talentpoolresourcesng@gmail.com</p>
+                      <p>info@talentpoolresourcesinternational.com</p>
                       <p>+234 815 639 2799</p>
                       <p>Alimosho ,Lagos</p>
                    </div>
@@ -76,24 +76,24 @@ export const Footer = () => {
                     
                    <div className="text-white text-[12px]">
                       <h1 className="text-white font-bold xl:text-[27px] sm:text-[15px]">About us</h1>
-                      <p>Recruitement Services</p>
-                      <p>Background Check Services</p>
-                      <p>Outsourcing</p>
-                   </div>
-
-                   {/* <div className="text-white text-[12px] sm:mt-[50px]">
-                      <h1 className="text-white font-bold xl:text-[27px] sm:text-[15px]">Services</h1>
-                      <p>Marketing</p>
-                      <p>Social Media</p>
-                   </div>
-
-                   <div className="text-white text-[12px]  sm:mt-[50px]">
-                      <h1 className="text-white font-bold xl:text-[27px] sm:text-[15px]">About us</h1>
                       <p>Home</p>
-                      <p>About</p>
-                      <p>Privacy Policy</p>
-                   </div> */}
+                      <p>Mission</p>
+                      <p>Vision</p>
+                   </div>
+
+                 
                 </div>
+                <div className="xl:flex md:inline sm:inline sm:p-5 xl:mt-5 w-[600px]">
+                     <div>
+                        <p className="text-white text-[11px] mt-3"> Subscribe to our NewsLetter</p>
+                     </div>
+                     <div className="xl:flex md:inline sm:inline ">
+                         <input 
+                           className="rounded-sm sm:p-2 mt-3 h-[50px]"
+                         />
+                         <button className="text-white bg-blue-500 h-[50px] m-3 sm:p-2 ms-5 rounded-sm">subscribe</button>
+                     </div>
+                  </div>
             </div>
         </div>
     )

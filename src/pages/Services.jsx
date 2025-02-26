@@ -15,29 +15,12 @@ export const Services = () => {
                  src="photo-1573497491208-6b1acb260507.avif"
                  className="sm:rounded-full sm:w-[340px] xl:w-[600px] sm:mt-10 sm:m-5"
                />
-               <img 
+               {/* <img 
                  src="photo-1590650516494-0c8e4a4dd67e.avif"
                  className="sm:hidden xl:block absolute xl:left-[300px] xl:w-[400px] xl:bottom-[0px]  xl:rounded-full"
-               />
+               /> */}
              </div>
 
-             <div className="sm:m-3 xl:w-[700px]">
-              <p className="font-extrabold xl:text-[35px] xl:mt-7 text-blue-600 sm:text-[14px] md:text-center md:mt-10">RECRUITMENT AND HEAD HUNTING SERVICES </p>
-              <p className="xl:mt-2 sm:text-[13px]">We strive to bring in talents that best fits your organization. 
-                Our experienced HR recruiters bring deep expertise across various industries.
-              </p>
-              <or 
-                 className="xl:mt-5 xl:text-[30px] sm:text-center font-normal text-blue-600"
-                 data-aos="fade-right"
-              >
-                <li  className="xl:mt-4">Contract hires - Short-term and project-based staffing solutions. </li>
-                <li>Graduate Trainee Hires – Fresh talent recruitment and onboarding.</li>
-                <li>Experience Hires – Mid-level to senior professionals tailored to your business needs.
-                </li>
-                <li>Executive Search – Finding top-level leadership candidates.
-                </li>
-              </or>
-             </div>
            </div>
 
            <div className="xl:m-10 xl:flex justify-between xl:mt- sm:m-5">
@@ -46,8 +29,8 @@ export const Services = () => {
               <p className="font-extrabold xl:text-[35px] xl:mt-7 text-blue-600 sm:text-[14px] md:text-center md:mt-10">BACKGROUND CHECKS: 
               </p>
               <p className="xl:mt-2 sm:text-[13px]">
-              Our Verification process helps you to take trust that you are hiring the 
-              right workforce. Whether you are an employer looking to verify applicants
+               Our Verification process helps you to take trust that you are hiring the 
+               right workforce. Whether you are an employer looking to verify applicants
                before you hire or an individual looking to vet domestic staff, 
                our screening solutions
                are tailored to meet your needs.<br /> We carry out the following background checks;
@@ -71,10 +54,10 @@ export const Services = () => {
              </div>
 
             
-           </div>
-
-           
-              <p className="font-extrabold xl:text-[35px] xl:mt-40 text-blue-600 text-center">HUMAN RESOURCES ADVISORY SERVICES: 
+           </div>         
+              <p 
+                className="font-extrabold xl:text-[35px] xl:mt-40 text-blue-600 text-center">
+                  HUMAN RESOURCES ADVISORY SERVICES: 
               </p>
               <p className="xl:mt-2 xl:text-center sm:m-3 sm:text-[13px]">
               Our HR Advisory Services provide expert guidance to businesses seeking to optimize their human resource functions. 

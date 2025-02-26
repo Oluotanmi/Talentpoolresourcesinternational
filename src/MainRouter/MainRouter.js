@@ -11,6 +11,12 @@ import SignUp from "../pages/Employers/SignUp";
 import { EmployersPage } from "../pages/Employers/EmployersPage";
 import SignIn from "../pages/Employers/SignIn";
 import { ContactUs } from "../pages/Contact";
+import { Recruitement } from "../pages/Recruitement";
+import { Checks } from "../pages/Checks";
+import { HR } from "../pages/HR";
+import { CV } from "../pages/CV";
+import { Business } from "../pages/Business";
+import { Outsourcing } from "../pages/Outsourcing";
 
 
 const MainRouter = () => {
@@ -37,14 +43,20 @@ const SideBar = () => {
  }
 
     return(
-        <div className="font-poppins">
+        <div className="font-Qwitcher">
         {showBar && <Sidebar SideBar={SideBar}/>}
          {!location.pathname.startsWith('/employerspage') &&   <Header SideBar={SideBar}/>}
           <Routes>
             <Route path='/' element={<Home /> }/>   
             <Route path='/aboutus' element={<AboutUs /> }/> 
             <Route path='/services' element={<Services /> }/>
-            <Route path='/contactus' element={<ContactUs /> }/>     
+            <Route path='/contactus' element={<ContactUs /> }/>    
+            <Route path='/recruitement' element={<Recruitement /> }/> 
+            <Route path='/checks' element={<Checks /> }/> 
+            <Route path='/hr' element={<HR /> }/> 
+            <Route path='/cv' element={<CV /> }/> 
+            <Route path='/business' element={<Business /> }/> 
+            <Route path='/outsourcing' element={<Outsourcing /> }/>  
             <Route path='/signin' element={<SignIn /> }/>          
             <Route path='/signup' element={<SignUp /> }/>              
             <Route path='/employerspage' element={<EmployersPage /> }/>           

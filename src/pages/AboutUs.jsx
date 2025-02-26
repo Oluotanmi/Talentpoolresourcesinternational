@@ -19,7 +19,7 @@ export const AboutUs = () => {
 
            <div className="text-center" >
              <h1 data-aos="fade-right" className="xl:text-[40px] font-bold text-blue-600">About Us</h1>
-             <p className="sm:mt-5">About Talent Pool Resources International</p>
+             {/* <p className="sm:mt-5">About Talent Pool Resources International</p> */}
            </div>
 
            <div className="xl:flex xl:justify-around mt-10">
@@ -28,16 +28,14 @@ export const AboutUs = () => {
                className="xl:w-[600px] rounded-r-full"
                 data-aos="flip-left"
              />
-             <div  data-aos="flip-right" className="xl:w-[700px] xl:mt-40 xl:text-[25px] sm:p-5 sm:mt-5">
-              <p>We are delighted to inform you that our company is a human resources 
-                  consulting firm in Lagos, Nigeria and are officially registered as 
-                  limited liability with CAC No. 7396745. We are human resources and 
-                  business management consulting firm offering HR Solutions to Start ups, small and medium scale businesses across board within and outside Nigeria.
-                   <br />
-                  we are professionals and believe people are innovative team. We the key to 
-                   an organization’s competitive advantage. Our mission is to help
-                   organizations leverage the full potential of their people and 
-                  navigate the ever changing world of work.
+             <div  data-aos="flip-right" className="xl:w-[700px] xl:mt-10 text-start  xl:text-[25px] sm:p-5 sm:mt-5">
+              <p>
+              We are human resources and business management consulting firm offering HR Solutions to Start ups,
+              small and medium scale businesses across board within and outside Nigeria. 
+              we are professionals and believe people are innovative team. We believe they are the key to an organization’s competitive advantage.       
+              Our primary focus is to help organizations leverage the full potential of their 
+              people and navigate the ever changing world of work by offering HR management support, innovative workforce strategies 
+              and consulting services
                </p>
              </div>
            </div>
@@ -84,9 +82,9 @@ export const AboutUs = () => {
            </div>
 
 
-           <div className="xl:mt-[100px] sm:p-10 xl:flex justify-around">
+           <div className="xl:mt-[150px] sm:p-10 xl:flex justify-around bg-slate-400">
              <div>
-               <h1 className="xl:text-[60px] font-bold text-blue-600">Our Core Values: RICCO</h1>
+               <h1 className="xl:text-[60px] font-bold text-blue-600">Our Core Values</h1>
                <or className="m-2">
                 <li>Result-Oriented</li>
                 <li> Innovative & Efficient Execution</li>
@@ -99,34 +97,41 @@ export const AboutUs = () => {
              <div className="">
                 <img 
                   data-aos="flip-left"
-                  className=""
+                  className=" rounded-lg"
                   src="photo-1551135049-8a33b5883817.avif"
                 />
              </div>
            </div>
 
            <h1 data-aos="slide-up" className="xl:text-[40px] font-bold text-center xl:mt-20 text-blue-600">Our Clients</h1>
-            <div className="xl:flex xl:justify-between">
+            <div className="xl:flex justify-center inline-block ">
               <img 
+                data-aos="flip-left"
                 src="download.jpeg"
-                className="xl:m-20 sm:m-10"
+                className="xl:m-20 xl:w-[100px] sm:m-10"
               />
                <img 
+                data-aos="flip-left"
                 src="WhatsApp Image 2025-02-19 at 22.18.57_e89fdddc.jpg"
-                className="xl:m-20 sm:m-10 w-[240px]"
+                className="xl:m-20 sm:m-20 w-[140px]"
               />
                <img 
+                data-aos="flip-left"
                 src="WhatsApp Image 2025-02-19 at 22.18.59_96b712ea.jpg"
-                className="xl:m-20 sm:m-10 w-[240px]"
+                className="xl:m-20 sm:m-20 w-[140px]"
               />
                <img 
+                data-aos="flip-left"
                 src="WhatsApp Image 2025-02-19 at 22.19.05_10f152dd.jpg"
-                className="xl:m-20 sm:m-10 w-[240px]"
+                className="xl:m-20 sm:m-20 w-[140px]"
               />
+              <div>
                <img 
+                data-aos="flip-left"
                 src="WhatsApp Image 2025-02-19 at 22.20.19_6e7738ec.jpg"
-                className="xl:m-20 sm:m-10 w-[240px]"
+                className="xl:m-20 sm:m-20 w-[140px]"
               />
+              </div>
             </div>
         </div>
     )

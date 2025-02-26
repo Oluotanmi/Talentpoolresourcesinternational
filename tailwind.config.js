@@ -10,7 +10,8 @@ module.exports = {
         poetsen: ["poetsen"],
         poppins: ["poppins"],
         slabo:["slabo"],
-        quicksand:["quicksand"]
+        quicksand:["quicksand"],
+        Qwitcher:["Qwitcher+Grypen"]
       },
       fontSize:{
         '1xl': '1.5rem',
