@@ -1,4 +1,5 @@
 deployment:
   task: 
-    -export DEPLOYPATH=/home/talentpo/repo
-    -/bin/cp -R * $DEPLOYPATH
+    -npm install
+    -npm run build
+    -rsync -av --delete build/ /home/talentpo/public_html/
