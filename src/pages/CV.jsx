@@ -8,7 +8,7 @@ export const CV = () => {
                 <div>
                   <p className="font-extrabold xl:text-[35px] xl:mt-40 text-blue-600 text-center">CV REVAMP SERVICES:</p> 
                   <p className="xl:mt-2 xl:text-center sm:text-[13px] sm:text-center"> 
-                    Are you tired of applying and not getting contacted by employers, Need your cv in 24hrs, express charges applies.
+                    Are you tired of applying and not getting contacted by employers. Need your cv in 24hrs?
                     revamp your cv now.
                   </p>
                 </div>

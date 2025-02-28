@@ -25,10 +25,10 @@ export const AboutUs = () => {
            <div className="xl:flex xl:justify-around mt-10">
              <img 
                src="photo-1570126618953-d437176e8c79.avif"
-               className="xl:w-[600px] rounded-r-full"
+               className="xl:w-[500px] rounded-r-full"
                 data-aos="flip-left"
              />
-             <div  data-aos="flip-right" className="xl:w-[700px] xl:mt-10 text-start  xl:text-[25px] sm:p-5 sm:mt-5">
+             <div  data-aos="flip-right" className="xl:w-[700px] xl:mt-5 text-start  xl:text-[25px] sm:p-5 sm:mt-5">
               <p>
               We are human resources and business management consulting firm offering HR Solutions to Start ups,
               small and medium scale businesses across board within and outside Nigeria. 
@@ -82,9 +82,9 @@ export const AboutUs = () => {
            </div>
 
 
-           <div className="xl:mt-[150px] sm:p-10 xl:flex justify-around bg-slate-400">
+           <div className="xl:mt-[150px] sm:p-10 xl:flex justify-around xl:bg-slate-400">
              <div>
-               <h1 className="xl:text-[60px] font-bold text-blue-600">Our Core Values</h1>
+               <h1 className="xl:text-[60px] sm:text-center font-bold text-blue-600">Our Core Values</h1>
                <or className="m-2">
                 <li>Result-Oriented</li>
                 <li> Innovative & Efficient Execution</li>

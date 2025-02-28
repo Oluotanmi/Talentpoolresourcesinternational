@@ -4,6 +4,7 @@ import { Input } from "../Common/Input";
 import {  FaFacebookF, FaLink, FaPhone, FaTwitter } from "react-icons/fa";
 import { FaMapMarkerAlt} from "react-icons/fa";
 import { Button } from "../Common/Button";
+import { FaWhatsapp } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -47,6 +48,14 @@ export const ContactUs = ({  }) => {
                     <p className="m-2">Office</p>
                     </div>
                     <h1 className="xl:text-[10px] xl:ms-10 sm:text-[10px]">Alimosho, Lagos</h1>
+                </div>
+
+                <div className="m-10 p-10 bg-blue-100" data-aos="fade-left">
+                    <div className="flex m-3"> 
+                    <FaWhatsapp className="text-blue-600" size={45}/>
+                    <p className="m-2">Contact Us</p>
+                    </div>
+                    <h1 className="xl:text-[10px] xl:ms-10 sm:text-[10px]"> +234 815 639 2799 </h1>
                 </div>
             </div>
 

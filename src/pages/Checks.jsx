@@ -3,16 +3,16 @@ import React from "react";
 
 export const Checks = () => {
     return (
-        <div className="xl:flex xl:justify-around mt-10 sm:m-5 sm:justify-center sm:inline-block">
+        <div className="xl:flex p-10 xl:justify-around mt-10 sm:m-5 sm:justify-center sm:inline-block">
 
             <div className="">
               <img 
                  src="photo-1577962917302-cd874c4e31d2.avif"
-                 className="sm:rounded-md sm:mt-8 xl:w-[700px]"
+                 className="sm:rounded-md sm:mt-8 xl:mt-20 xl:w-[700px]"
                /> 
             </div>
 
-            <div className="xl: xl:w-[700px]">
+            <div className="xl: xl:w-[700px]  xl:p-10">
               <p className="font-extrabold xl:text-[35px] xl:mt-7 text-blue-600 sm:text-[14px] sm:mt-5 text-center md:mt-10">BACKGROUND CHECKS: 
               </p>
               <p className="xl:mt-2 sm:text-[13px] xl:text-[15px]">

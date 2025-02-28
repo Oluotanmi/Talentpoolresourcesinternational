@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../Common/Button";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,14 +26,16 @@ export const Home =() => {
                 className="xl:ms-[80px] xl:mt-10 sm:p-10 xl:bg-white sm:bg-slate-100" 
                 data-aos="fade-right"
             >
-            <h1 className="xl:text-[70px] sm:text-[35px] font-extrabold text-blue-600 ">Talent Pool<br /> Resources International</h1>
-            <p>We Transform the work place</p>
+            <h1 className="xl:text-[70px] sm:text-[35px] font-extrabold text-blue-600 xl:leading-[85px]">Talent Pool<br /> Resources International</h1>
+            <p className="font-bold xl:text-[16px]">We Transform the work place</p>
             <p className="xl:text-[12px] sm:text-[12px] mt-2"> 
                 We are delighted to inform you that our company is a human resources<br /> and business management consulting
                 firm located in lagos
             </p>
             <div className="mt-4 sm:text-center xl:text-start w-[120px]">
-                <Button state="Get Started"/>
+                <Link to="/signin">
+                   <Button state="Get Started"/>
+                </Link>
             </div>
             </div>
 
@@ -62,7 +65,7 @@ export const Home =() => {
                 >
                     <h1 className="xl:text-[30px] font-extrabold text-blue-600 text-center">Mission</h1>
                    <p className="xl:text-white text-[17px] text-start">
-                    We are professionals and believe people are innovative team. 
+                    We are professionals and believe people are innovative team.
                      We are the key to an organization’s competitive advantage.
                      Our mission is to help organizations leverage  the full potential of their people
                     and navigate the ever changing world of work

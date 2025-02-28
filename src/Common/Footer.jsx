@@ -10,6 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
     return (
+      <div className="bg-blue-700 ">
         <div className="bg-blue-700 p-5 xl:mt-60 sm:mt-[40px] justify-around w-full flex">
 
             {/* <div className="bg-blue-400 xl:w-[700px] rounded-xl flex absolute xl:top-[2150px] sm:top-[2820px] p-[20px] justify-between align-middle" >
@@ -83,9 +84,13 @@ export const Footer = () => {
 
                  
                 </div>
-                <div className="xl:flex md:inline sm:inline sm:p-5 xl:mt-5 w-[600px]">
+                
+            </div>
+            
+        </div>
+        <div className="xl:flex justify-center sm:inline-block sm:justify-center sm:p-5 xl:mt-5 text-center ">
                      <div>
-                        <p className="text-white text-[11px] mt-3"> Subscribe to our NewsLetter</p>
+                        <p className="text-white text-[14px] mt-6 mr-3"> Subscribe to our NewsLetter</p>
                      </div>
                      <div className="xl:flex md:inline sm:inline ">
                          <input 
@@ -93,8 +98,7 @@ export const Footer = () => {
                          />
                          <button className="text-white bg-blue-500 h-[50px] m-3 sm:p-2 ms-5 rounded-sm">subscribe</button>
                      </div>
-                  </div>
-            </div>
-        </div>
+          </div>
+      </div>
     )
 }

@@ -17,19 +17,19 @@ export const HR = ({ state,type }) => {
 
               </p>
               <or 
-                 className="xl:mt-5 xl:text-[20px] text-start xl:m-5 font-normal  text-blue-600"
+                 className="xl:mt-5 xl:text-[20px] text-center xl:m-5 font-normal  text-blue-600"
                  data-aos="fade-right"
               >
                 {/* <li className="xl:mt-4">Locum (Contract hires)</li> */}
-                <li>HR Toolkit, HR Policy Development & Implementation – Crafting guidelines, forms or policies that align with company goals and legal requirements. Our HR Toolkit can be a vital asset in helping to support your people and enable teams to perform and deliver results
+                <li>HR Toolkit, HR Policy Development & Implementation – <br />Crafting guidelines, forms or policies that align with company goals and legal requirements. Our HR Toolkit can be a vital asset in helping to support your people and enable teams to perform and deliver results
                 </li>
-                <li>Employment Law Compliance & Regulatory Support – Helping businesses stay compliant with labor laws and industry regulations.
+                <li>Employment Law Compliance & Regulatory Support –  <br />Helping businesses stay compliant with labor laws and industry regulations.
                 </li>
-                <li>Employee Relations & Conflict Resolution – Providing mediation and conflict resolution strategies to maintain workplace harmony.
+                <li>Employee Relations & Conflict Resolution –  <br />Providing mediation and conflict resolution strategies to maintain workplace harmony.
                 </li>
-                <li>Workforce Planning & Strategy Development – Assisting organizations in effective workforce forecasting and employee engagement.
+                <li>Workforce Planning & Strategy Development – <br /> Assisting organizations in effective workforce forecasting and employee engagement.
                 </li>
-                <li>Talent & Performance Management – Designing and implementing frameworks for assessing and enhancing employee performance, ensuring alignment with business goals.
+                <li>Talent & Performance Management –  <br />Designing and implementing frameworks for assessing and enhancing employee performance, ensuring alignment with business goals.
                 </li>
               </or>
 
